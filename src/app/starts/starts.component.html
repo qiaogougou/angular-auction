@@ -1,0 +1,6 @@
+<p>
+  <span *ngFor="let star of stars" class="glyphicon glyphicon-star"
+  [class.glyphicon-star-empty]="star"></span>
+  <!-- 有star的值决定是否出现空心的星星 true 的时候会多出来 属性绑定 的样式 -->
+  <span>{{rating}}</span>
+</p>
